@@ -9,6 +9,9 @@ const subtract = all((a, b) => a - b);
 const multiply = all((a, b) => a * b);
 const divide = all((a, b) => a / b);
 const modulo = all((a, b) => a % b);
+const max = Math.max;
+const min = Math.min;
+
 const log = console.log;
 
 const environment = {
@@ -17,6 +20,8 @@ const environment = {
   multiply,
   divide,
   modulo,
+  max,
+  min,
   log,
   pi: Math.PI,
 };
