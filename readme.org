@@ -1,0 +1,21 @@
+* Readme 
+
+** npm start
+
+*** Start CLI
+#+begin_src bash
+carbonado
+#+end_src
+
+
+
+>cardano 
+*** Run Carbonado Script
+#+begin_src bash
+carbonado run [filename]
+#+end_src
+
+** Overview
+A lisp-flavored language built around functional programming concepts.
+
+This is a language that, through building, will help me to gain a better understanding of lisp, compilers, interpreters, repls, and functional programming techniques.
