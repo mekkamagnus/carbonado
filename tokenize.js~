@@ -1,0 +1,10 @@
+const tokenize = (input) => {
+  let cursor = 0;
+  const tokens = [];
+
+  while (cursor < input.length) {
+    // Our logic goes here...
+  }
+
+  return tokens;
+};
