@@ -14,6 +14,9 @@ const min = Math.min;
 
 const log = console.log;
 
+const upcase = str => str.toUpperCase();
+const downcase = str => str.toLowerCase();
+
 const environment = {
   add,
   subtract,
@@ -22,6 +25,8 @@ const environment = {
   modulo,
   max,
   min,
+  upcase,
+  downcase,
   log,
   pi: Math.PI,
 };

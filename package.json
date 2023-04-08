@@ -3,10 +3,14 @@
   "version": "0.0.1",
   "description": "",
   "main": "identify.js",
+  "bin": {
+    "carbonado": "./carbonado.js"
+  },
   "directories": {
     "test": "tests"
   },
   "scripts": {
+    "start": "node repl.js",
     "test": "jest"
   },
   "keywords": [],
@@ -14,5 +18,9 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.5"
   }
 }
