@@ -1,8 +1,8 @@
 {
   "name": "carbonado",
   "version": "0.0.1",
-  "description": "",
-  "main": "identify.js",
+  "description": "A lisp-flavored language built around functional programming concepts.",
+  "main": "./carbonado.js",
   "bin": {
     "carbonado": "./carbonado.js"
   },
@@ -14,12 +14,13 @@
     "test": "jest"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mekael Turner",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.5.0"
   },
   "dependencies": {
+    "@babel/generator": "^7.21.4",
     "chalk": "^4.1.2",
     "inquirer": "^8.2.5"
   }

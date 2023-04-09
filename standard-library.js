@@ -11,7 +11,6 @@ const divide = all((a, b) => a / b);
 const modulo = all((a, b) => a % b);
 const max = Math.max;
 const min = Math.min;
-
 const log = console.log;
 const upcase = str => str.toUpperCase();
 const downcase = str => str.toLowerCase();
@@ -24,7 +23,6 @@ const environment = {
   modulo,
   max,
   min,
-  map,
   upcase,
   downcase,
   log,
